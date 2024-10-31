@@ -1,0 +1,40 @@
+.write{
+  margin-top: 15px;
+  font-size: 20px;
+  font-weight: 700;
+  color: slategray;
+  cursor: default;
+}
+
+.form-controll{
+  width: 500px;
+}
+.form-controll button{
+  margin-top: 14px;
+  margin-left: 0px;
+  background: #ff5644;
+}
+.form-controll input,
+.form-controll textarea {
+  width: 100%;
+  background: #fcfcfc;
+  border: 1px solid silver;
+  border-radius: 5px;
+  padding: 15px 20px;
+  margin-top: 15px;
+  font-size: 14px;
+  color: black;
+}
+
+
+.form-controll textarea{
+height: 200px;
+resize: none;
+}
+
+.form-controll .error {
+  color: #ff5644;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
